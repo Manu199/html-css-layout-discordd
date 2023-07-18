@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.debug-box{
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+.debug > div{
+  border: 1px solid black;
+}
+
+.d-flex{
+  display: flex;
+}
+
+body {
+  background-color: rgb(133, 18, 9);
+}
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  
+}
+header{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #404EED;
+}
+.head-container{
+  width: 1000px;
+  margin: 15px auto;
+}
+ul{
+  list-style: none;
+  display: flex;
+  text-decoration-color: white;
+}
+li{ 
+  padding: 15px;
+  text-decoration-color: white;
+}
+
+div.logo {
+  align-items: center;
+  display: flex;
+  
+}
+div.link {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+  display: flex;
+}
+div.login {
+  text-align: right;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 7px 16px;
+  border-radius: 40px;
+}
+
+div.first-container{
+  background-color: blue;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* main div .main-container {
+  width: 900px;
+  height: 400px;
+  background-color: darkkhaki;
+  border: 3px dotted #000000;
+} */
+
+.third-container {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;  
+  display: flex ;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 1100px;
+}
+
+.third-right {
+  flex-grow: 1;
+  padding-right: 10px;
+  background-color: pink;
+  width: 40%;
+  border: 3px dotted #000000;
+}
+
+.third-left {
+  flex-grow: 1;
+  background-color: blue;
+  width: 60%;
+  border: 3px dotted #000000;
+}
+.fourth-container {
+  width: 100%;
+  background-color: lightgray;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;  
+  display: flex ;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 1100px;
+}
+
+.fourth-left {
+  flex-grow: 1;
+  padding-right: 10px;
+  background-color: pink;
+  width: 40%;
+  border: 3px dotted #000000;
+}
+
+.fourth-right {
+  flex-grow: 1;
+  background-color: blue;
+  width: 60%;
+  border: 3px dotted #000000;
+}
+.fifth-container {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;  
+  display: flex ;
+}
+
+.fifth {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 1100px;
+}
+
+.fifth-right {
+  flex-grow: 1;
+  padding-right: 10px;
+  background-color: pink;
+  width: 40%;
+  border: 3px dotted #000000;
+}
+
+.fifth-left {
+  flex-grow: 1;
+  background-color: blue;
+  width: 60%;
+  border: 3px dotted #000000;
+}
+
+.large-container {
+  width: 100%;
+  background-color: lightgray;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;  
+  display: flex ;
+  
+}
+.large {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  width: 1100px;
+  background-color: rgb(70, 129, 11);
+  border: 3px dotted #000000;
+}
+footer{
+  background-color: #24272A;
+  color: white;
+  height: 600px;  /* DEBUG */
+}
+.footer-top{
+  height: 400px;  /* DEBUG */
+}
+
+.footer-top .social{
+  width: 25%;
+}
+
+.footer-top .menu{
+  width: 75%;
+}
+
+.footer-top .menu .col{
+  flex-basis: 25%;
+}
+
+.footer-bottom{
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.container{
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* .prefooter {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 39, 42);
+  padding-top: 5px;
+  display: flex;
+  padding-bottom: 25px;
+}
+. {
+  background-color: rgb(165, 67, 1);
+  height: 400px;
+  width: 1100px;
+}
+.prefooter .box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+div .first-column{
+  width: calc(1/6 - 1100px);
+  height: 100%;
+  background-color: rgb(4, 63, 63);
+  border: 3px dotted #000000;
+}
+div .second-column{
+  width: calc(1/6 - 1100px);
+  height: 100%;
+  background-color: aqua;
+  border: 3px dotted #000000;
+}
+div .third-column{
+  width: calc(1/6 - 1100px);
+  height: 100%;
+  background-color: aqua;
+  border: 3px dotted #000000;
+}
+div .fourth-column{
+  width: calc(1/6 - 1100px);
+  height: 100%;
+  background-color: aqua;
+  border: 3px dotted #000000;
+}
+div .fifth-column{
+  width: calc(1/6 - 1100px);
+  height: 100%;
+  background-color: aqua;
+  border: 3px dotted #000000;
+} */
